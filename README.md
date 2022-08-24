@@ -3,7 +3,9 @@
 
 <img src="/docs/piña.JPG" alt="fruto piña de pino"/>
 
-En este repositorio se encuentran desarrollados dos algoritmos enfocados en la deteccion del pino piñonero, cada implementacion se realiza en el entorno colab en formato .ipynb con una guia paso a paso en busqueda de que se pueda adaptar a cualquier base de datos.
+En este repositorio se encuentran desarrollados dos algoritmos enfocados en la deteccion del pino piñonero, cada implementacion se realiza en el entorno colab en formato .ipynb con una guia paso a paso, con el fin de poder adaptar y entrenar para una base de datos propia.
+
+Todos los conceptos vistos en este trbajo de grado estan explicados de forma detallada en [link]
 
 ## Objetivos
 
@@ -19,7 +21,11 @@ Objetivos Específicos:
 
 ## Metodologia 
 
-el desarrollo de los detectores se realizaron bajo la siguiente estructura
+El desarrollo de los detectores se realizaron bajo la siguiente estructura
 
 <img src="/docs/metodologia.png" alt="Metodologia"/>
+
+##Antes de empezar 
+Es necesario familiarizarse con la plataforma - [Labelbox]([https://github.com/koajs/kick-off-koa](https://labelbox.com/)) 
+Labelbox es el etiquetador online (pago) recomendado que se utilizo para el manejo de la base de datos en especial la limpieza, trbajo colaborativo y anotaciones.
 
