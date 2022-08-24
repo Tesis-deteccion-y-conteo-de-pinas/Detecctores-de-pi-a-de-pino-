@@ -26,8 +26,8 @@ El desarrollo de los detectores se realizaron bajo la siguiente estructura
 <img src="/docs/metodologia.png" alt="Metodologia"/>
 
 ## Antes de empezar 
-Es necesario familiarizarse con la plataforma - [Labelbox]([https://github.com/koajs/kick-off-koa](https://labelbox.com/]) 
-[Labelbox]: [https://github.com/koajs/kick-off-koa](https://labelbox.com/
+Es necesario familiarizarse con la plataforma - [Labelbox](https://labelbox.com/) 
+
 
 Labelbox es el etiquetador online (pago) recomendado que se utilizo para el manejo de la base de datos en especial la limpieza, trbajo colaborativo y anotaciones.
 
