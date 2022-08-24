@@ -26,8 +26,11 @@ El desarrollo de los detectores se realizaron bajo la siguiente estructura
 <img src="/docs/metodologia.png" alt="Metodologia"/>
 
 ## Antes de empezar 
+
 Es necesario familiarizarse con la plataforma - [Labelbox](https://labelbox.com/) 
 
+Labelbox es el etiquetador online (pago) recomendado que se utilizo para el manejo de la base de datos, en especial para la limpieza, trabajo colaborativo y anotaciones.
 
-Labelbox es el etiquetador online (pago) recomendado que se utilizo para el manejo de la base de datos en especial la limpieza, trbajo colaborativo y anotaciones.
+Este anotador permite automaticar la importacion de la base de datos y para esto se debe obtener el ID del proyecto o el API key
+
 
