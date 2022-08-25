@@ -74,28 +74,21 @@ Para ello, seguir los estos pasos:
 
 ## Implementacion de modelos
 
-Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo esta organizado paso a paso con pequeños coentarios guias que permiten entenderlo un poco mas a profundidad
+Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo esta organizado paso a paso con pequeños comentarios guias que permiten entenderlo un poco mas a profundidad.
 
-* Para ejecuatar *Detectron2*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en colab y lo unico que se debe variar son las API'S mencionadas anteriormente.
+* Para ejecuatar *Detectron2*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en colab.
 
 * Para ejecuatar el *YOLOv5*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en colab y seguir el paso a paso 
 
 ## Derechos de autor 
 Elaborado por:
-{
-Vanesa valentina gomez de la barrera
 
-Santiago cortes cabrera
+# Vanesa valentina gomez de la barrera
+
+# Santiago cortes cabrera
 
 En direccion de:
 
-PhD Ing.Jose armando Fernandez
+# PhD Ing.Jose armando Fernandez
 
 Universidad de Ibague -2022
-}
-
-
-
-
-
-
