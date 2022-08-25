@@ -1,13 +1,11 @@
 ## Detección y conteo de piñas de pino en la especie arbórea Pinus Pinea mediante modelos de redes neuronales profundas utilizando imágenes RGB
 
-
 <img src="/docs/piña.JPG" alt="fruto piña de pino" width="450" height="350" >
 
-En este repositorio se encuentran desarrollados dos algoritmos enfocados en la deteccion del pino piñonero, cada implementacion se realiza en el entorno colab en formato .ipynb con una guia paso a paso, con el fin de poder adaptar y entrenar para una base de datos propia.
+En este repositorio se encuentran desarrollados dos algoritmos enfocados en la deteccion del pino piñonero, cada implementacion se realiza en el entorno colab en formato .ipynb con una guia paso a paso, con el fin de poder adaptar y entrenar una base de datos propia.
+Todos los conceptos necesarios para poder entender la arquitectura y funcionamiento de los algoritmos se encuentran explicados de forma detallada en el [Trabajo de grado](https://drive.google.com/drive/u/0/folders/1ysNZVxcO8uk-lPrIm44EVUN3KzarIR1B)
 
-Todos los conceptos vistos en este trabajo de grado estan explicados de forma detallada en [link]
-
-## Objetivo general
+# Objetivo general
 
 Desarrollar un sistema para la detección automática y conteo de piñas en la especie arbórea Pinus Pinea (comúnmente llamado Pino Piñonero) del Centro Tecnológico Forestal de Cataluña (CTFC), a partir de imágenes RGB adquiridas desde suelo, utilizando técnicas de aprendizaje profundo.
 
@@ -17,12 +15,25 @@ El desarrollo de los detectores se realizaron bajo la siguiente estructura
 
 <img src="/docs/metodologia.png" alt="Metodologia" width="600" height="500">
 
-## Antes de empezar 
+## Estado del proyecto
 
-Es necesario familiarizarse con la plataforma - [Labelbox](https://labelbox.com/) 
-Labelbox es el etiquetador online (pago) que se utilizo para el manejo de la base de datos, en especial la limpieza, trabajo colaborativo y anotaciones. 
+Los objetivos del proyecto se encuentran abortados en su totalidad, por lo tanto, los archivos adjuntos estan actualizados.
 
-Para ello seguir los sigueintes pasos:
+## Requisitos del entorno de desarrollo
+
+1.) Contar con la base de datos adecuada.
+2.) Estar registrado en el el sofware labelbox (de pago) o roboflow (gratuito).
+3.) Entorno Colab de google para el uso de una GPU externa .
+
+## Guia de Funcionamiento
+
+Para empezar, es necesario familiarizarse con la plataforma [Labelbox](https://labelbox.com/), es el etiquetador online que se utilizó para el manejo de la base de datos, en especial para:
+
+*la limpieza de datos
+*El trabajo colaborativo  
+*las anotaciones. 
+
+Para ello, seguir los estos pasos:
 
 1. Crear un nuevo poyecto
 ![image](https://user-images.githubusercontent.com/58084716/186775967-96fb58bb-a49e-4f13-9d99-e1ec6cdfa045.png)
@@ -66,6 +77,15 @@ Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [D
 * Para ejecuatar *Detectron2*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en colab y lo unico que se debe variar son las API'S mencionadas anteriormente.
 
 * Para ejecuatar el *YOLOv5*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en colab y seguir el paso a paso 
+
+## Derechos de autor 
+Elaborado por:{
+Vanesa valentina gomez de la barrera
+Santiago cortes cabrera
+En direccion de:
+ing.Jose armando Fernandez
+Universidad de Ibague -2022}
+
 
 
 
