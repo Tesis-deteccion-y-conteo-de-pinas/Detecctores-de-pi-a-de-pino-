@@ -22,7 +22,9 @@ Los objetivos del proyecto se encuentran abortados en su totalidad, por lo tanto
 ## Requisitos del entorno de desarrollo
 
 1.) Contar con la base de datos adecuada.
-2.) Estar registrado en el el sofware labelbox (de pago) o roboflow (gratuito).
+
+2.) Estar registrado en el el software labelbox (de pago) o roboflow (gratuito).
+
 3.) Entorno Colab de google para el uso de una GPU externa .
 
 ## Guia de Funcionamiento
@@ -83,7 +85,7 @@ Elaborado por:{
 Vanesa valentina gomez de la barrera
 Santiago cortes cabrera
 En direccion de:
-ing.Jose armando Fernandez
+PhD Ing.Jose armando Fernandez
 Universidad de Ibague -2022}
 
 
