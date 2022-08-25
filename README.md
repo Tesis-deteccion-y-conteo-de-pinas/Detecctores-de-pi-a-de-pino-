@@ -81,7 +81,8 @@ Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [D
 * Para ejecuatar el *YOLOv5*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en colab y seguir el paso a paso 
 
 ## Derechos de autor 
-Elaborado por:{
+Elaborado por:
+{
 Vanesa valentina gomez de la barrera
 
 Santiago cortes cabrera
