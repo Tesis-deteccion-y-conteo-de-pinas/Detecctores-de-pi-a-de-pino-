@@ -12,8 +12,7 @@ Todos los conceptos vistos en este trabajo de grado estan explicados de forma de
 Desarrollar un sistema para la detección automática y conteo de piñas en la especie arbórea Pinus Pinea (comúnmente llamado Pino Piñonero) del Centro Tecnológico Forestal de Cataluña (CTFC), a partir de imágenes RGB adquiridas desde suelo, utilizando técnicas de aprendizaje profundo.
 
 
-## Metodologia 
-
+## Metodología
 El desarrollo de los detectores se realizaron bajo la siguiente estructura
 
 <img src="/docs/metodologia.png" alt="Metodologia" width="600" height="500">
