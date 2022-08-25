@@ -33,4 +33,7 @@ Labelbox es el etiquetador online (pago) recomendado que se utilizo para el mane
 
 Este anotador permite automaticar la importacion de la base de datos y para esto se debe obtener el ID del proyecto o el API key
 
+![image](https://user-images.githubusercontent.com/58084716/186775756-c9b8d903-9c1d-40a6-bac9-d01b7cea6df5.png)
+
+
 
