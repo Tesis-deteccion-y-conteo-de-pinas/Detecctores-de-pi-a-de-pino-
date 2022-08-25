@@ -1,11 +1,11 @@
 ## Detección y conteo de piñas de pino en la especie arbórea Pinus Pinea mediante modelos de redes neuronales profundas utilizando imágenes RGB
 
 
-<img src="/docs/piña.JPG" alt="fruto piña de pino"/>
+<img src="/docs/piña.JPG" alt="fruto piña de pino" width="450" height="350" >
 
 En este repositorio se encuentran desarrollados dos algoritmos enfocados en la deteccion del pino piñonero, cada implementacion se realiza en el entorno colab en formato .ipynb con una guia paso a paso, con el fin de poder adaptar y entrenar para una base de datos propia.
 
-Todos los conceptos vistos en este trbajo de grado estan explicados de forma detallada en [link]
+Todos los conceptos vistos en este trabajo de grado estan explicados de forma detallada en [link]
 
 ## Objetivo general
 
@@ -16,7 +16,7 @@ Desarrollar un sistema para la detección automática y conteo de piñas en la e
 
 El desarrollo de los detectores se realizaron bajo la siguiente estructura
 
-<img src="/docs/metodologia.png" alt="Metodologia"/>
+<img src="/docs/metodologia.png" alt="Metodologia" width="600" height="500">
 
 ## Antes de empezar 
 
@@ -66,7 +66,7 @@ Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [D
 
 * Para ejecuatar *Detectron2*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en colab y lo unico que se debe variar son las API'S mencionadas anteriormente.
 
-* Para ejecuatar el *YOLOv5*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb).
+* Para ejecuatar el *YOLOv5*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en colab y seguir el paso a paso 
 
 
 
