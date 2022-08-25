@@ -73,7 +73,7 @@ Para ello, seguir los estos pasos:
 
 ![image](https://user-images.githubusercontent.com/58084716/186777763-3695acd3-6516-4be7-bea4-c4b104664afb.png)
 
-## implementación de modelos
+## Implementación de modelos
 
 Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo está organizado paso a paso con pequeños comentarios guías que permiten entenderlo un poco más a profundidad.
 
@@ -84,9 +84,9 @@ Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible se
 ## Derechos de autor 
 Elaborado por:
 
-* Vanesa Valentina Gómez De la Barrera
+* [Vanesa Valentina Gómez De la Barrera](2420171072@estudiantesunibague.edu.co)
 
-* Santiago Cortes Cabrera
+* [Santiago Cortes Cabrera](2420171013@estudiantesunibague.edu.co)
 
 En dirección de:
 
