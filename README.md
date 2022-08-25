@@ -60,7 +60,7 @@ Para ello seguir los sigueintes pasos:
 
 ![image](https://user-images.githubusercontent.com/58084716/186777763-3695acd3-6516-4be7-bea4-c4b104664afb.png)
 
-## implementacion de modelos
+## Implementacion de modelos
 
 Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo esta organizado paso a paso con pequeños coentarios guias que permiten entenderlo un poco mas a profundidad
 
