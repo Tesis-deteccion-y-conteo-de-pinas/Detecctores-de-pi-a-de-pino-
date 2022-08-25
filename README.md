@@ -11,7 +11,7 @@ Desarrollar un sistema para la detección automática y conteo de piñas en la e
 
 
 ## Metodología
-El desarrollo de los detectores se realizó bajo la siguiente estructura
+El desarrollo de los detectores se realizó bajo la siguiente estructura:
 
 <img src="/docs/metodologia.png" alt="Metodología" width="600" height="500">
 
@@ -77,9 +77,9 @@ Para ello, seguir los estos pasos:
 
 Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo está organizado paso a paso con pequeños comentarios guías que permiten entenderlo un poco más a profundidad.
 
-* Para ejecutar *Detectron2*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en Colab.
+* Para ejecutar *Detectron2*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en Colab y seguir el paso a paso.
 
-* Para ejecutar el *YOLOv5*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en Colab y seguir el paso a paso 
+* Para ejecutar el *YOLOv5*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en Colab y seguir el paso a paso.
 
 ## Derechos de autor 
 Elaborado por:
