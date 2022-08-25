@@ -17,7 +17,7 @@ El desarrollo de los detectores se realizaron bajo la siguiente estructura
 
 ## Estado del proyecto
 
-Los objetivos del proyecto se encuentran abortados en su totalidad, por lo tanto, los archivos adjuntos estan actualizados.
+Los objetivos del proyecto se encuentran abordados en su totalidad, por lo tanto, los archivos adjuntos estan actualizados.
 
 ## Requisitos del entorno de desarrollo
 
