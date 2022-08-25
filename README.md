@@ -29,11 +29,11 @@ Para ello seguir los sigueintes pasos:
 ![image](https://user-images.githubusercontent.com/58084716/186775967-96fb58bb-a49e-4f13-9d99-e1ec6cdfa045.png)
 
 2. Agrear titulo, descripcion y tipo de dato, en este caso se seleccionan imagenes. 
-3.
+
 ![image](https://user-images.githubusercontent.com/58084716/186776305-4f90a0d2-e738-49d5-a586-a6d82fa7bc45.png)
 
 3. Buscar la seccion labels para empezar a etiquetar
-4.
+
 ![image](https://user-images.githubusercontent.com/58084716/186776478-4b028a45-a17f-4cc7-acde-9de72d8b4bd3.png)
 
 4. Crear la clase a tratar, en este caso pina, etiquetar y guardar
@@ -47,21 +47,26 @@ Para ello seguir los sigueintes pasos:
 6. Para poder vincular la base de datos con el entorno Colab es necesario tener :
  
  * La API del proyecto 
+ 
 ![image](https://user-images.githubusercontent.com/58084716/186777353-e523ce28-41e0-4f7c-ab18-600375e09e3d.png)
 
  * La API de la base de datos
+ 
 ![image](https://user-images.githubusercontent.com/58084716/186777443-663abbc5-d2aa-490d-bed2-e5e47cec0ea2.png)
 
  * Finalmente la API KEY
 
 ![image](https://user-images.githubusercontent.com/58084716/186777601-04ef7a27-00af-4896-a246-07ccfcd07e88.png)
+
 ![image](https://user-images.githubusercontent.com/58084716/186777763-3695acd3-6516-4be7-bea4-c4b104664afb.png)
 
 ## implementacion de modelos
 
-Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [Detectores](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores)
+Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo esta organizado paso a paso con pequeños coentarios guias que permiten entenderlo un poco mas a profundidad
 
-Para ejecuatar el detectron, deben abir el notebook en colab 
+* Para ejecuatar *Detectron2*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en colab y lo unico que se debe variar son las API'S mencionadas anteriormente.
+
+* Para ejecuatar el *YOLOv5*, se debe abir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb).
 
 
 
