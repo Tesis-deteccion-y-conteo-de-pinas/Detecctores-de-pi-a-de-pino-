@@ -38,6 +38,7 @@ Para empezar, es necesario familiarizarse con la plataforma [Labelbox](https://l
 Para ello, seguir los estos pasos:
 
 1. Crear un nuevo proyecto
+
 ![image](https://user-images.githubusercontent.com/58084716/186775967-96fb58bb-a49e-4f13-9d99-e1ec6cdfa045.png)
 
 2. Agregar título, descripción y tipo de dato, en este caso se seleccionan imágenes. 
