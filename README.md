@@ -83,12 +83,12 @@ Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible se
 ## Derechos de autor 
 Elaborado por:
 
-# Vanesa valentina gomez de la barrera
+* Vanesa valentina gomez de la barrera
 
-# Santiago cortes cabrera
+* Santiago cortes cabrera
 
 En direccion de:
 
-# PhD Ing.Jose armando Fernandez
+* PhD Ing.Jose armando Fernandez
 
 Universidad de Ibague -2022
