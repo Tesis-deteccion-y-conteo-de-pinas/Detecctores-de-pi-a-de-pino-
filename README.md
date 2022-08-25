@@ -28,12 +28,41 @@ El desarrollo de los detectores se realizaron bajo la siguiente estructura
 ## Antes de empezar 
 
 Es necesario familiarizarse con la plataforma - [Labelbox](https://labelbox.com/) 
-
 Labelbox es el etiquetador online (pago) recomendado que se utilizo para el manejo de la base de datos, en especial para la limpieza, trabajo colaborativo y anotaciones.
+1. crear un nuevo poyecto
+![image](https://user-images.githubusercontent.com/58084716/186775967-96fb58bb-a49e-4f13-9d99-e1ec6cdfa045.png)
 
-Este anotador permite automaticar la importacion de la base de datos y para esto se debe obtener el ID del proyecto o el API key
+2. Agrear titulo, descripcion y tipo de dato, en este caso se seleccionan imagenes. 
+![image](https://user-images.githubusercontent.com/58084716/186776305-4f90a0d2-e738-49d5-a586-a6d82fa7bc45.png)
 
-![image](https://user-images.githubusercontent.com/58084716/186775756-c9b8d903-9c1d-40a6-bac9-d01b7cea6df5.png)
+3. Buscar la seccion labels para empezar a etiquetar
+![image](https://user-images.githubusercontent.com/58084716/186776478-4b028a45-a17f-4cc7-acde-9de72d8b4bd3.png)
+
+4. crear la clase a tratar, en este caso pina, etiquetar y guardar
+![image](https://user-images.githubusercontent.com/58084716/186776970-ac354398-2785-4206-8632-28849c1f0156.png)
+
+5.De manera colaborativa es posible aprobar o no las etiquetas
+
+![image](https://user-images.githubusercontent.com/58084716/186777070-2c8236d2-fa41-495f-ad83-4507ba77ca75.png)
+
+6.para poder vincular la base de datos con el entorno Colab es necesario tener :
+ 
+ * La API del proyecto 
+![image](https://user-images.githubusercontent.com/58084716/186777353-e523ce28-41e0-4f7c-ab18-600375e09e3d.png)
+
+ * La API de la base de datos
+![image](https://user-images.githubusercontent.com/58084716/186777443-663abbc5-d2aa-490d-bed2-e5e47cec0ea2.png)
+
+ * Finalmente la API KEY
+
+![image](https://user-images.githubusercontent.com/58084716/186777601-04ef7a27-00af-4896-a246-07ccfcd07e88.png)
+![image](https://user-images.githubusercontent.com/58084716/186777763-3695acd3-6516-4be7-bea4-c4b104664afb.png)
+
+## implementacion de modelos
+
+teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta detectores
+
+
 
 
 
