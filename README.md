@@ -31,9 +31,9 @@ Los objetivos del proyecto se encuentran abordados en su totalidad, por lo tanto
 
 Para empezar, es necesario familiarizarse con la plataforma [Labelbox](https://labelbox.com/), es el etiquetador online que se utilizó para el manejo de la base de datos, en especial para:
 
-*la limpieza de datos
-*El trabajo colaborativo  
-*las anotaciones. 
+* La limpieza de datos
+* El trabajo colaborativo  
+* Las anotaciones. 
 
 Para ello, seguir los estos pasos:
 
