@@ -83,10 +83,15 @@ Teniendo todas las API'S es posible seguir los modelos ubicados en la carpeta [D
 ## Derechos de autor 
 Elaborado por:{
 Vanesa valentina gomez de la barrera
+
 Santiago cortes cabrera
+
 En direccion de:
+
 PhD Ing.Jose armando Fernandez
-Universidad de Ibague -2022}
+
+Universidad de Ibague -2022
+}
 
 
 
