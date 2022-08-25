@@ -84,9 +84,9 @@ Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible se
 ## Derechos de autor 
 Elaborado por:
 
-* [Vanesa Valentina Gómez De la Barrera](2420171072@estudiantesunibague.edu.co)
+* Vanesa Valentina Gómez De la Barrera (2420171072@estudiantesunibague.edu.co)
 
-* [Santiago Cortes Cabrera](2420171013@estudiantesunibague.edu.co)
+* Santiago Cortes Cabrera (2420171013@estudiantesunibague.edu.co)
 
 En dirección de:
 
