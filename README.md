@@ -81,12 +81,17 @@ Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible se
 
 * Para ejecutar el *YOLOv5*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en Colab y seguir el paso a paso.
 
-##Visualizacion de resultados
+## Visualizacion de resultados
 
-![image](https://user-images.githubusercontent.com/70868955/186992031-03586818-0c72-40fa-9765-f3d77849601e.png)
+Para visualizar los resultados del detectron se utiliza TensorBoard con el fin de monitonizar las metricas, en este caso el Average precision (AP, AP50, AP75.
 
 ![image](https://user-images.githubusercontent.com/70868955/186993319-f220a6da-e20c-4eda-a634-6eb1ab4efe33.png)
 
+YOLOv5 hace uso de la herramienta Weights & Biases, es un dashbord que almacena cada uno de los entrenamientos con las predicciones realizadas y las metricas correspondientes
+
+![image](https://user-images.githubusercontent.com/70868955/186992031-03586818-0c72-40fa-9765-f3d77849601e.png)
+
+![image](https://user-images.githubusercontent.com/70868955/186994576-438935dc-cf76-412a-92cf-8c1fa86dddd2.png)
 
 
 ## Derechos de autor 
