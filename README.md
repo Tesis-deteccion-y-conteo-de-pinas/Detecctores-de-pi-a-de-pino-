@@ -3,7 +3,7 @@
 <img src="/docs/piña.JPG" alt="fruto piña de pino" width="450" height="350" >
 
 En este repositorio se encuentran desarrollados dos algoritmos enfocados en la detección del pino piñonero, cada implementación se realiza en el entorno Colab en formato .ipynb con una guía paso a paso, con el fin de poder adaptar y entrenar una base de datos propia.
-Todos los conceptos necesarios para poder entender la arquitectura y funcionamiento de los algoritmos se encuentran explicados de forma detallada en el [Trabajo de Grado](https://drive.google.com/file/d/1-GCklux25KECxikIuyw51cOWCI7xg_bT/view?usp=sharing) y en el siguiente video tutorial: [Guía paso a paso](https://www.youtube.com/watch?v=yPtMvMDRWPs&ab_channel=SANTIAGOCORTESCABRERA)
+Todos los conceptos necesarios para poder entender la arquitectura y funcionamiento de los algoritmos se encuentran explicados de forma detallada en el [Trabajo de Grado](https://drive.google.com/file/d/1-GCklux25KECxikIuyw51cOWCI7xg_bT/view?usp=sharing) y en la guia paso a paso [Video tutorial](https://www.youtube.com/watch?v=yPtMvMDRWPs&ab_channel=SANTIAGOCORTESCABRERA)
 
 # Objetivo general
 
