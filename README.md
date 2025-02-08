@@ -1,108 +1,108 @@
-## Detección y conteo de piñas de pino en la especie arbórea Pinus Pinea mediante modelos de redes neuronales profundas utilizando imágenes RGB
+## Detection and counting of pine cones in the tree species Pinus Pinea by means of deep neural network models using RGB images.
 
 <img src="/docs/piña.JPG" alt="fruto piña de pino" width="450" height="350" >
 
-En este repositorio se encuentran desarrollados dos algoritmos enfocados en la detección del pino piñonero, cada implementación se realiza en el entorno Colab en formato .ipynb con una guía paso a paso, con el fin de poder adaptar y entrenar una base de datos propia.
-Todos los conceptos necesarios para poder entender la arquitectura y funcionamiento de los algoritmos se encuentran explicados de forma detallada en el [Trabajo de Grado](https://drive.google.com/file/d/1-GCklux25KECxikIuyw51cOWCI7xg_bT/view?usp=sharing) y en la guia paso a paso [Video tutorial](https://www.youtube.com/watch?v=yPtMvMDRWPs&ab_channel=SANTIAGOCORTESCABRERA)
+In this repository are developed two algorithms focused on the detection of stone pine, each implementation is done in the Colab environment in .ipynb format with a step by step guide, in order to adapt and train an own database.
+All the concepts necessary to understand the architecture and operation of the algorithms are explained in detail in the [paper](https://drive.google.com/file/d/1-GCklux25KECxikIuyw51cOWCI7xg_bT/view?usp=sharing) and in the step-by-step guide [Tutorial](https://www.youtube.com/watch?v=yPtMvMDRWPs&ab_channel=SANTIAGOCORTESCABRERA)
 
-# Objetivo general
+# General Objective
 
-Desarrollar un sistema para la detección automática y conteo de piñas en la especie arbórea Pinus Pinea (comúnmente llamado Pino Piñonero) del Centro Tecnológico Forestal de Cataluña (CTFC), a partir de imágenes RGB adquiridas desde suelo, utilizando técnicas de aprendizaje profundo.
+To develop a system for the automatic detection and counting of pine cones in the tree species Pinus Pinea (commonly called Pinus Piñonero) at the Forestry Technology Center of Catalonia (CTFC), from RGB images acquired from the ground, using deep learning techniques.
 
 
-## Metodología
-El desarrollo de los detectores se realizó bajo la siguiente estructura:
+## Methodology
+The development of the detectors was carried out under the following structure:
 
 <img src="/docs/metodologia.png" alt="Metodología" width="600" height="500">
 
-## Estado del proyecto
+## Project status
 
-Los objetivos del proyecto se encuentran abordados en su totalidad, por lo tanto, los archivos adjuntos están actualizados.
+The project objectives are fully addressed, therefore, the attached files are up to date.
 
-## Requisitos del entorno de desarrollo
+## Development environment requirements
 
-1.) Contar con la base de datos adecuada.
+1.) To have the appropriate database.
 
-2.) Estar registrado en el software Labelbox (de pago) o Roboflow (gratuito).
+2.) Be registered in the Labelbox (paid) or Roboflow (free) software.
 
-3.) Entorno Colab de Google para el uso de una GPU externa.
+3.) Google Colab environment for the use of an external GPU.
 
-## Guía de Funcionamiento
+## Operation Guide
 
-Para empezar, es necesario familiarizarse con la plataforma [Labelbox](https://labelbox.com/), es el etiquetador online que se utilizó para el manejo de la base de datos, en especial para:
+To begin with, it is necessary to familiarize yourself with the platform. [Labelbox](https://labelbox.com/), is the online tagger that was used for database management, in particular for:
 
-* La limpieza de datos
-* El trabajo colaborativo  
-* Las anotaciones. 
+*  Data cleaning
+* Collaborative work 
+* Annotations. 
 
-Para ello, seguir los estos pasos:
+To do this, follow these steps:
 
-1. Crear un nuevo proyecto
+1. Create a new project
 
 ![image](https://user-images.githubusercontent.com/58084716/186775967-96fb58bb-a49e-4f13-9d99-e1ec6cdfa045.png)
 
-2. Agregar título, descripción y tipo de dato, en este caso se seleccionan imágenes. 
+2. Add title, description and data type, in this case images are selected.
 
 ![image](https://user-images.githubusercontent.com/58084716/186776305-4f90a0d2-e738-49d5-a586-a6d82fa7bc45.png)
 
-3. Buscar la sección Labels para empezar a etiquetar
+3. Find the Labels section to start labeling
 
 ![image](https://user-images.githubusercontent.com/58084716/186776478-4b028a45-a17f-4cc7-acde-9de72d8b4bd3.png)
 
-4. Crear la clase a tratar, en este caso pina, etiquetar y guardar
+4. Create the class to edit, in this case pineapple, label and save.
 
 ![image](https://user-images.githubusercontent.com/58084716/186776970-ac354398-2785-4206-8632-28849c1f0156.png)
 
-5. De manera colaborativa es posible aprobar o no las etiquetas
+5. Collaboratively it is possible to approve or not the labels.
 
 ![image](https://user-images.githubusercontent.com/58084716/186777070-2c8236d2-fa41-495f-ad83-4507ba77ca75.png)
 
-6. Para poder vincular la base de datos con el entorno Colab es necesario tener:
+6. To be able to link the database with the Colab environment it is necessary to have:
  
- * La API del proyecto 
+ * The project API
  
 ![image](https://user-images.githubusercontent.com/58084716/186777353-e523ce28-41e0-4f7c-ab18-600375e09e3d.png)
 
- * La API de la base de datos
+ * The database API
  
 ![image](https://user-images.githubusercontent.com/58084716/186777443-663abbc5-d2aa-490d-bed2-e5e47cec0ea2.png)
 
- * Finalmente la API KEY
+ * Finally the API KEY
 
 ![image](https://user-images.githubusercontent.com/58084716/186777601-04ef7a27-00af-4896-a246-07ccfcd07e88.png)
 
 ![image](https://user-images.githubusercontent.com/58084716/186777763-3695acd3-6516-4be7-bea4-c4b104664afb.png)
 
-## Implementación de modelos
+## Model implementation
 
-Teniendo la API Key y los ID's del proyecto y de la base de datos, es posible seguir los modelos ubicados en la carpeta [Detectores.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Cada algoritmo está organizado paso a paso con pequeños comentarios guías que permiten entenderlo un poco más a profundidad.
+Having the API Key and the ID's of the project and database, it is possible to follow the models located in the folder [Detectors.](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/tree/main/Detectores) Each algorithm is organized step by step with small commentary guides that allow you to understand it a little more in depth.
 
-* Para ejecutar *Detectron2*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) en Colab y seguir el paso a paso.
+* To run *Detectron2*, you must open the [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/Detectron2.ipynb) in Colab and follow the step by step.
 
-* Para ejecutar el *YOLOv5*, se debe abrir el [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) en Colab y seguir el paso a paso.
+* To run the *YOLOv5*, you must open the [Notebook](https://github.com/Tesis-deteccion-y-conteo-de-pinas/Detectores-pina-de-pino/blob/main/Detectores/YOLOv5.ipynb) in Colab and follow the step by step.
 
-## Visualizacion de resultados
+## Visualization of results
 
-Para visualizar los resultados del detectron se utiliza TensorBoard con el fin de monitonizar las metricas, en este caso el Average precision (AP, AP50, AP75.
+To visualize the results of the detectron, TensorBoard is used to monitor the metrics, in this case the Average precision (AP, AP50, AP75).
 
 ![image](https://user-images.githubusercontent.com/70868955/186993319-f220a6da-e20c-4eda-a634-6eb1ab4efe33.png)
 
-YOLOv5 hace uso de la herramienta Weights & Biases, es un dashbord que almacena cada uno de los entrenamientos con las predicciones realizadas y las metricas correspondientes
+YOLOv5 makes use of the Weights & Biases tool, a dashbord that stores each of the training sessions with the predictions made and the corresponding metrics.
 
 ![image](https://user-images.githubusercontent.com/70868955/186992031-03586818-0c72-40fa-9765-f3d77849601e.png)
 
 ![image](https://user-images.githubusercontent.com/70868955/186994576-438935dc-cf76-412a-92cf-8c1fa86dddd2.png)
 
 
-## Derechos de autor 
-Elaborado por:
+## Copyrights
+Prepared by:
 
-* Vanesa Valentina Gómez De la Barrera (2420171072@estudiantesunibague.edu.co)
+* Vanesa Valentina Gomez De la Barrera (2420171072@estudiantesunibague.edu.co)
 
 * Santiago Cortes Cabrera (2420171013@estudiantesunibague.edu.co)
 
-En dirección de:
+Addressed to:
 
-* PhD Ing. José Armando Fernández
+* PhD Ing. Jose Armando Fernández
 
-Universidad de Ibagué -2022
+Universidad de Ibague -2022
